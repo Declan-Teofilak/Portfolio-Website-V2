@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Declan Teofilak's Interactice Portfolio</title>
+  <link rel="stylesheet" href="main.css">
+  <meta charset="UTF-8">
+</head>
+<body>
+  <div class="header">
+    <h1>Hi! My name is Declan Teofilak</h1>
+    <h2>I am a computer science student at West Chester University</h2>
+    <h2>All of the projects found on this page are original, programmed by myself as a showcase of my web development skills</h1>
+  </div>
+<div class="projects">
+  <!--multiple projects, buttons hide/unhide the projects
+
+  changes the color of the background-->
+  <button type="button" id="colorChanger" class="buttons">Change the color of the square!</button>
+  <div class="colorBlock">
+
+  </div>
+
+  <!--simple counter that changes the inline HTML text to reflect the clicks, also has a reset button
+  which reverts the count and HTML to 0-->
+  <h1>Simple counter that iterates upon being pressed, relays information to the user</h1>
+  <h1>and has a reset button as well!</h1>
+  <div class="counter">
+    <button type="button" id="countingBtn" class="buttons">Click me to count!</button>
+    <p id="testing">Total Counted: </p>
+    <button type="button" id="resetBtn" class="buttons">Reset the counter!</button>
+  </div>
+
+  <!--slide show of four images, set to a timer-->
+  <h1>Slideshow on a timer, cycling through images used on the portfolio</h1>
+  <div class="slideshow">
+
+    <!--<button type="button" id="slideshowButton">Image slideshow on a timer</button>-->
+    <img src="slideshowImages/seeds.png" alt="slideshow" id="slideshowHolder" width="400" height="350">
+  </div>
+
+  <!-- pumpkin is planted when seeds are dragged over the empty soil-->
+  <h1>Drag the seeds into the soil to grow a pumpkin!</h1>
+  <button type="button" id="pumpkinBtn" class="buttons">Click me to unhide the soil and seeds!</button>
+  <div class="pumpkin">
+      <img src="slideshowImages/dirt.png" alt="dirt background" id="soil">
+      <img src="slideshowImages/seeds.png" alt="seeds" height="100" width="100"; draggable="true" id="seedDrag">
+
+  </div>
+  <div class="baloonGame">
+    <img src="slideshowImages/balloon.png" alt="balloon" id="balloon">
+    <p>Click the balloons as they appear to increase your score!</p>
+    <button type="button" name="startGame" id="startGameBtn" class="buttons">Start Game</button>
+    <div class="balloonFrame">
+      <p>Score: 0</p>
+      <canvas id="canvas" width="500" height="500"></canvas>
+
+    </div>
+
+  </div>
+</div>
+<div class="contact">
+  <h1>Contact</h1>
+  <a href="https://github.com/Declan-Teofilak">
+  <img src="icons/githublogo.png" alt="github" id="git">
+  </a>
+  <a href="mailto:dteofilak@outlook.com">
+  <img src="icons/mail.png" alt="mail" id="snailmail">
+  </a>
+
+</div>
+<script src ="javascript.js"></script>
+</body>
+</html>

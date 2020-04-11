@@ -1,0 +1,89 @@
+body
+{
+  background-image: url("slideshowImages/skyline.jpg");
+  min-height: 100vh
+  justify-content: center;
+  align-items: center;
+
+}
+.header
+{
+  text-align: center;
+  font-family: sans-serif;
+  color: #fefefe;
+  opacity: 0.9;
+}
+.projects
+{
+  border-top: 50px;
+  border-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  border: 25px;
+  color: #fefefe;
+  font-family: helvetica;
+  font-size: 20px;
+}
+.slideshow
+{
+  align-items: center;
+}
+#slideshowHolder:hover
+{
+  transition: 4s;
+  width: 500px;
+  height: 425px;
+}
+#slideshowHolder
+{
+  transition: 2s;
+}
+.pumpkin
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  visibility: hidden;
+}
+.buttons
+{
+  font-family: verdana;
+  font-size: 35px;
+  border-color: grey;
+  border-radius: 40px;
+  size: auto;
+  background-color: #fff;
+}
+.colorBlock
+{
+  padding: 25px;
+  margin: 0 auto;
+  color: white;
+  height: 100px;
+  width: 100px;
+}
+.contact
+{
+  color: #fefefe;
+}
+.balloonFrame
+{
+  visibility: hidden;
+}
+#snailmail:hover
+{
+  transition: 1s;
+  opacity: 0.2;
+}
+#git:hover
+{
+  transition: 1s;
+  opacity: 0.2;
+}
+#canvas
+{
+  background-color: RGB(247, 247, 247);
+}
+#balloon
+{
+  visibility: hidden;
+}
